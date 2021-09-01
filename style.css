@@ -1,0 +1,23 @@
+body {
+  background-color: cyan;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+p {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  color: white;
+}
+
+h6 {
+  text-align: right;
+}
