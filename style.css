@@ -16,8 +16,28 @@ h5 {
 
 nav {
   color: white;
+  float: left;
+  width: 20%;
 }
 
 h6 {
   text-align: right;
+}
+
+/* Section to build the grid layout */
+
+main {
+  float: right;
+  width: 80%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%
+}
+
+a:hover {
+  background-color: rgb(255, 0, 200);
+  color: white;
 }
