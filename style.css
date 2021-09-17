@@ -14,10 +14,9 @@ h5 {
   color: white;
 }
 
-nav {
+a:hover {
+  background-color: rgb(255, 0, 200);
   color: white;
-  float: left;
-  width: 20%;
 }
 
 h6 {
@@ -31,13 +30,39 @@ main {
   width: 80%;
 }
 
+nav {
+  color: white;
+  float: left;
+  width: 20%;
+}
+
 footer {
   position: fixed;
   bottom: 0px;
   width: 100%
 }
 
-a:hover {
-  background-color: rgb(255, 0, 200);
-  color: white;
+/* Section for Lab 4 recipe formatting */
+p.recipe {
+  font-style: italic;
+}
+
+h2.recipe {
+  font-family: helvetica;
+}
+
+ul.recipe {
+  list-style-type: none;
+}
+
+r.meat {
+  background-color: rgba(255, 0, 0, 0.76);
+}
+
+r.veggie {
+  background-color: rgba(0, 255, 0, 0.76);
+}
+
+r.dairy {
+  background-color: rgba(255, 255, 0, 0.76);
 }
