@@ -5,7 +5,7 @@ body {
 h1 {
   color: black;
   text-align: center;
-  background-color: white;
+  /*background-color: white;*/
   padding: 10px;
 }
 
@@ -23,8 +23,21 @@ h6 {
   text-align: right;
 }
 
-// Section to build the grid layout
+nav {
+  padding: 15px;
+}
 
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+}
+
+main {
+  padding: 15px;
+}
+
+/* Section to build the grid layout
 main {
   float: right;
   width: 80%;
@@ -41,8 +54,7 @@ footer {
   bottom: 0px;
   width: 100%
 }
-
-// Section for Lab 4 recipe formatting
+Section for Lab 4 recipe formatting */
 p.recipe {
   font-style: italic;
 }
@@ -67,26 +79,32 @@ r.dairy {
   background-color: rgba(255, 255, 0, 0.76);
 }
 
-// Section for grid formatting
+/* Section for grid formatting*/
 
 .item1 {grid-area: header;}
 .item2 {grid-area: nav;}
 .item3 {grid-area: main;}
 .item4 {grid-area: footer;}
-.item5 {grid-area: div;}
+/*.item5 {grid-area: div;}*/
 
-.grid-container-2col {
+.grid-container {
   display: grid;
   grid-template-areas:
-    header header;
-    nav main;
-    footer footer;
+    'header header header'
+    'nav main main'
+    'footer footer footer';
+    grid-gap: 10px;
+    background-color: transparent;
 }
 
-.grid-container-3col {
+.grid-item {
+  background-color: white;
+}
+
+/*.grid-container-3col {
   display: grid;
   grid-template-areas:
     header header;
     nav div main;
     footer footer;
-}
+}*/
