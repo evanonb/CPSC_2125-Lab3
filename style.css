@@ -23,7 +23,7 @@ h6 {
   text-align: right;
 }
 
-/* Section to build the grid layout */
+// Section to build the grid layout
 
 main {
   float: right;
@@ -42,7 +42,7 @@ footer {
   width: 100%
 }
 
-/* Section for Lab 4 recipe formatting */
+// Section for Lab 4 recipe formatting
 p.recipe {
   font-style: italic;
 }
@@ -65,4 +65,28 @@ r.veggie {
 
 r.dairy {
   background-color: rgba(255, 255, 0, 0.76);
+}
+
+// Section for grid formatting
+
+.item1 {grid-area: header;}
+.item2 {grid-area: nav;}
+.item3 {grid-area: main;}
+.item4 {grid-area: footer;}
+.item5 {grid-area: div;}
+
+.grid-container-2col {
+  display: grid;
+  grid-template-areas:
+    header header;
+    nav main;
+    footer footer;
+}
+
+.grid-container-3col {
+  display: grid;
+  grid-template-areas:
+    header header;
+    nav div main;
+    footer footer;
 }
