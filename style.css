@@ -41,8 +41,9 @@ p.recipe {
   font-style: italic;
 }
 
-h2.recipe {
+h2.recipe, h4.recipe {
   font-family: helvetica;
+  font-style: italic;
 }
 
 ul.recipe {
