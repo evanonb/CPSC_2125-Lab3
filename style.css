@@ -36,6 +36,8 @@ main {
   padding: 15px;
 }
 
+footer p {text-align: center;}
+
 /* Section for Lab 4 recipe formatting */
 p.recipe {
   font-style: italic;
@@ -50,17 +52,13 @@ ul.recipe {
   list-style-type: none;
 }
 
-r.meat {
-  background-color: rgba(255, 0, 0, 0.76);
-}
-
-r.veggie {
-  background-color: rgba(0, 255, 0, 0.76);
-}
-
-r.dairy {
-  background-color: rgba(255, 255, 0, 0.76);
-}
+/* Section for Lab 4 recipe formatting */
+p.recipe {font-style: italic;}
+h2.recipe {font-family: helvetica;}
+ul.recipe {list-style-type: none;}
+r.meat {background-color: rgba(255, 0, 0, 0.76);}
+r.veggie {background-color: rgba(0, 255, 0, 0.76);}
+r.dairy {background-color: rgba(255, 255, 0, 0.76);}
 
 /* Section for grid formatting */
 
