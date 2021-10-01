@@ -39,6 +39,20 @@ main {
 footer p {text-align: center;}
 
 /* Section for Lab 4 recipe formatting */
+p.recipe {
+  font-style: italic;
+}
+
+h2.recipe, h4.recipe {
+  font-family: helvetica;
+  font-style: italic;
+}
+
+ul.recipe {
+  list-style-type: none;
+}
+
+/* Section for Lab 4 recipe formatting */
 p.recipe {font-style: italic;}
 h2.recipe {font-family: helvetica;}
 ul.recipe {list-style-type: none;}
