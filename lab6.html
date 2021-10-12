@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CPSC 2125 Lab 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="item1 grid-item">
+        <h1>CPSC 2125 Lab 3</h1>
+      </header>
+
+      <nav class="item2 grid-item">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lab1.html">Lab 1</a></li>
+          <li><a href="lab2.html">Lab 2</a></li>
+          <li><a href="lab3.html">Lab 3</a></li>
+          <li><a href="lab4.html">Lab 4</a></li>
+          <li><a href="lab5.html">Lab 5</a></li>
+          <li><b>Lab 6</b></li>
+        </ul>
+      </nav>
+
+      <main class="item3 grid-item">
+        <h2>Application Form</h2>
+        <p>Enter your information below for the application. We will review it and get back to you soon!</p>
+        <form action="https://webdevbasics.net/scripts/yoga.php" method="POST">
+          <label for="firstName">First Name:</label><br>
+          <input type="text" id="firstName" name="First Name" required></input><br><br>
+          <label for="lastName">Last Name:</label><br>
+          <input type="text" id="lastName" name="Last Name" required></input><br><br>
+          
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="Email" required></label><br><br>
+
+          <label for="state">Choose Your State:</label><br>
+          <select id="state" name="State" required>
+            <option value="AL">AL</option>
+            <option value="FL">FL</option>
+            <option value="GA">GA</option>
+          </select><br><br>
+
+          <label for="maritalStatus">Marital Status:</label><br>
+          <input type="radio" id="maritalStatus" name="Marital Status" value="Single">Single</input>
+          <input type="radio" id="maritalStatus" name="Marital Status" value="Married">Married</input><br><br>
+
+          <input type="checkbox" id="skills1" name="Skills" value="Python"></input>
+          <label for="Python">Python</label><br>
+          <input type="checkbox" id="skills2" name="Skills" value="C#">
+          <label for="C#">C#</label><br>
+          <input type="checkbox" id="skills3" name="Skills" value="HTML"></input>
+          <label for="HTML">HTML</label><br><br>
+
+          <label for="comments">Comments?</label><br>
+          <textarea id="comments" name="Comments"></textarea><br><br>
+
+          <input type="submit" value="Submit Form">
+        </form>
+      </main>
+
+      <footer class="item4 grid-item">
+        <p>Website created by Evan Owenby.<br>Last updated on <span id="lastUpdatedDate"></span></p>
+        <h6>Copyright Evan Owenby Productions</h6>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
