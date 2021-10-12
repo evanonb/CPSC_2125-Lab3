@@ -1,0 +1,21 @@
+/* Section for grid formatting */
+
+.item1 {grid-area: header;}
+.item2 {grid-area: nav;}
+.item5 {grid-area: section;}
+.item7 {grid-area: aside;}
+.item6 {grid-area: article;}
+.item4 {grid-area: footer;}
+
+.grid-container {
+  display: grid;
+  /*grid-template-columns: 33% 33% 34%;*/
+  grid-template-areas:
+    'header header header'
+    'nav nav nav'
+    'section section aside'
+    'article article aside'
+    'footer footer footer';
+    grid-gap: 10px;
+    background-color: transparent;
+}

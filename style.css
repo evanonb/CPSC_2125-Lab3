@@ -1,6 +1,6 @@
-body {
-  background-color: cyan;
-}
+body {background-color: cyan;}
+nav, main {padding: 15px;}
+footer p {text-align: center;}
 
 h1 {
   color: black;
@@ -13,17 +13,11 @@ h5 {
   color: white;
 }
 
+h6 {text-align: right;}
+
 a:hover {
   background-color: rgb(255, 0, 200);
   color: white;
-}
-
-h6 {
-  text-align: right;
-}
-
-nav {
-  padding: 15px;
 }
 
 nav ul {
@@ -31,12 +25,6 @@ nav ul {
   text-align: center;
   padding: 0px;
 }
-
-main {
-  padding: 15px;
-}
-
-footer p {text-align: center;}
 
 /* Section for Lab 4 recipe formatting */
 p.recipe {
@@ -61,7 +49,6 @@ r.veggie {background-color: rgba(0, 255, 0, 0.76);}
 r.dairy {background-color: rgba(255, 255, 0, 0.76);}
 
 /* Section for grid formatting */
-
 .item1 {grid-area: header;}
 .item2 {grid-area: nav;}
 .item3 {grid-area: main;}
@@ -81,27 +68,6 @@ r.dairy {background-color: rgba(255, 255, 0, 0.76);}
     background-color: transparent;
 }
 
-.grid-container-t {
-  display: grid;
-  /*grid-template-columns: 33% 33% 34%;*/
-  grid-template-areas:
-    'header header header'
-    'nav nav nav'
-    'section section aside'
-    'article article aside'
-    'footer footer footer';
-    grid-gap: 10px;
-    background-color: transparent;
-}
-
 .grid-item {
   background-color: white;
 }
-
-/*.grid-container-3col {
-  display: grid;
-  grid-template-areas:
-    header header;
-    nav left main;
-    footer footer;
-}*/
