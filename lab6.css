@@ -2,10 +2,10 @@
 
 .item1 {grid-area: header;}
 .item2 {grid-area: nav;}
-.item5 {grid-area: section;}
-.item7 {grid-area: aside;}
-.item6 {grid-area: article;}
-.item4 {grid-area: footer;}
+.item3 {grid-area: section;}
+.item4 {grid-area: aside;}
+.item5 {grid-area: article;}
+.item6 {grid-area: footer;}
 
 .grid-container {
   display: grid;
@@ -22,3 +22,32 @@
 
 /* inline nav bar*/
 
+
+/* main semantic tag formatting */
+body {background-color: cyan;}
+nav, main {padding: 15px;}
+footer p {text-align: center;}
+
+h1 {
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+h5 {
+  background-color: black;
+  color: white;
+}
+
+h6 {text-align: right;}
+
+a:hover {
+  background-color: rgb(255, 0, 200);
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+}
