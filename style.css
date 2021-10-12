@@ -66,6 +66,9 @@ r.dairy {background-color: rgba(255, 255, 0, 0.76);}
 .item2 {grid-area: nav;}
 .item3 {grid-area: main;}
 .item4 {grid-area: footer;}
+.item5 {grid-area: section;}
+.item6 {grid-area: article;}
+.item7 {grid-area: aside;}
 
 .grid-container {
   display: grid;
@@ -73,6 +76,19 @@ r.dairy {background-color: rgba(255, 255, 0, 0.76);}
   grid-template-areas:
     'header header header'
     'nav main main'
+    'footer footer footer';
+    grid-gap: 10px;
+    background-color: transparent;
+}
+
+.grid-container-t {
+  display: grid;
+  /*grid-template-columns: 33% 33% 34%;*/
+  grid-template-areas:
+    'header header header'
+    'nav nav nav'
+    'section section aside'
+    'article article aside'
     'footer footer footer';
     grid-gap: 10px;
     background-color: transparent;
