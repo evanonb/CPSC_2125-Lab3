@@ -1,4 +1,4 @@
-/* Section for grid formatting */
+/* section for grid formatting */
 
 .item1 {grid-area: header;}
 .item2 {grid-area: nav;}
@@ -19,3 +19,6 @@
     grid-gap: 10px;
     background-color: transparent;
 }
+
+/* inline nav bar*/
+
