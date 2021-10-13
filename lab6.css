@@ -1,15 +1,21 @@
 /* section for grid formatting */
 
-.item1 {grid-area: header; background-color: red;}
+/*.item1 {grid-area: header; background-color: red;}
 .item2 {grid-area: nav; background-color: orange; padding: 0px;}
 .item3 {grid-area: section; background-color: yellow; padding: 10px;}
 .item4 {grid-area: aside; background-color: green; padding: 10px;}
 .item5 {grid-area: article; background-color: blue; padding: 10px;}
+.item6 {grid-area: footer; background-color: purple; padding: 10px;}*/
+
+.item1 {grid-area: header; background-color: rgb(235, 112, 208);}
+.item2 {grid-area: nav; background-color: gray; padding: 0px;}
+.item3 {grid-area: section; background-color: rgb(223, 223, 53); padding: 10px;}
+.item4 {grid-area: aside; background-color: rgb(115, 69, 190); padding: 10px;}
+.item5 {grid-area: article; background-color: rgb(99, 99, 241); padding: 10px;}
 .item6 {grid-area: footer; background-color: purple; padding: 10px;}
 
 .grid-container {
   display: grid;
-  /*grid-template-columns: 33% 33% 34%;*/
   grid-template-areas:
     'header header header'
     'nav nav nav'
@@ -18,23 +24,14 @@
     'footer footer footer';
     grid-gap: 10px;
     background-color: transparent;
-    /*border: 25px;
-    margin: 25px;
-    padding: 25px;
-    content: 25px;*/
 }
-
-/*.grid-item {
-  background-color: white;
-}*/
-
-/* inline nav bar*/
-
 
 /* main semantic tag formatting */
 body {background-color: cyan;}
 nav, main {padding: 15px;}
 footer p {text-align: center;}
+
+p {font-size: 1.2em;}
 
 h1 {
   color: black;
@@ -76,11 +73,11 @@ nav.inline-nav ul li {display: inline;}
 button {
   background-color: rgb(30, 255, 0);
   padding: 15px;
-  display: inline;
   margin: 3px;
   border: 10px;
   color: white;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  border-radius: 12px;
 }
