@@ -11,7 +11,7 @@
 .item2 {grid-area: nav; background-color: gray; padding: 0px;}
 .item3 {grid-area: section; background-color: rgb(223, 223, 53); padding: 10px;}
 .item4 {grid-area: aside; background-color: rgb(115, 69, 190); padding: 10px;}
-.item5 {grid-area: article; background-color: rgb(99, 99, 241); padding: 10px;}
+.item5 {grid-area: article; background-color: rgb(99, 241, 229); padding: 10px;}
 .item6 {grid-area: footer; background-color: purple; padding: 10px;}
 
 .grid-container {
@@ -27,7 +27,7 @@
 }
 
 /* main semantic tag formatting */
-body {background-color: cyan;}
+body {background-color: black;}
 nav, main {padding: 15px;}
 footer p {text-align: center;}
 
@@ -70,8 +70,20 @@ nav ul {
 
 nav.inline-nav ul li {display: inline;}
 
-button {
+.navbutton {
   background-color: rgb(30, 255, 0);
+  padding: 15px;
+  margin: 3px;
+  border: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.artbutton {
+  background-color: black;
   padding: 15px;
   margin: 3px;
   border: 10px;
