@@ -9,14 +9,23 @@ function lastUpdated() {
 }
 
 //scripts to change backgrond color for article grid item in lab 6
-function bkg-vi() {
-  document.getElementsByClassName("article").bkg = pink;
+function bkgVi() {
+  //alert("yay");
+  document.getElementById("chgbkg").style.backgroundColor = "red";
+  //document.getElementsByClassName('item5').innerHTML = "red";
+  //document.getElementsById('article').innerHTML = "red";
+  //document.body.article.style.background = "red";
+  //document.body.style.backgroundColor = "red";
 }
 
-function bkg-mu() {
-
+function bkgMu() {
+  document.getElementById("chgbkg").style.backgroundColor = "red";
 }
 
-function bkg-inv() {
+function bkgInv() {
+  document.getElementById("chgbkg").style.backgroundColor = "red";
+}
 
+function bkgReset() {
+  document.getElementById("chgbkg").style.backgroundColor = "rgb(99, 241, 229)";
 }
