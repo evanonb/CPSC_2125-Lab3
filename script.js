@@ -12,6 +12,7 @@ function lastUpdated() {
 function bkgVi() {
   //alert("yay");
   document.getElementById("chgbkg").style.backgroundColor = "red";
+  document.getElementById("chgtxt").style.color = "black";
   //document.getElementsByClassName('item5').innerHTML = "red";
   //document.getElementsById('article').innerHTML = "red";
   //document.body.article.style.background = "red";
@@ -19,13 +20,18 @@ function bkgVi() {
 }
 
 function bkgMu() {
-  document.getElementById("chgbkg").style.backgroundColor = "red";
+  document.getElementById("chgbkg").style.backgroundColor = "#83A1CD";
+  document.getElementById("chgtxt").style.color = "black";
 }
 
 function bkgInv() {
-  document.getElementById("chgbkg").style.backgroundColor = "red";
+  document.getElementById("chgbkg").style.backgroundColor = "black";
+  document.getElementById("chgtxt").style.color = "white";
+
+  //document.getElementsById("chgtxt").style.color = "white";
 }
 
 function bkgReset() {
-  document.getElementById("chgbkg").style.backgroundColor = "rgb(99, 241, 229)";
+  document.getElementById("chgbkg").style.backgroundColor = "#6AF2E5";
+  document.getElementById("chgtxt").style.color = "black";
 }
